@@ -1,3 +1,1 @@
-npx eslint . --fix
-
-exit 1
+npx lint-staged
