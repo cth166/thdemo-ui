@@ -1,1 +1,3 @@
 npx eslint . --fix
+
+exit 1
