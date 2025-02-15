@@ -5,13 +5,17 @@
   "scripts": {
     "prepare": "husky",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "docs:dev": "pnpm run -C docs dev",
+    "docs:build": "pnpm run -C docs build",
+    "docs:serve": "pnpm run -C docs serve"
   },
   "dependencies": {
     "vue": "^3.5.13"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.2.1",
+    "@types/node": "^22.13.4",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "eslint": "^9.20.1",

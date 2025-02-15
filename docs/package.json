@@ -1,0 +1,22 @@
+{
+  "name": "@ivmp-ui/docs",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "unocss": "^65.5.0",
+    "vitepress": "^1.6.3"
+  }
+}
