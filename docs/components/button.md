@@ -3,12 +3,17 @@ title: Button
 lang: en-US
 ---
 
+<script setup>
+import Basic from '../examples/button/basic.vue'
+</script>
+
 # Button
 
 Commonly used button.
 
 ## Basic usage
 
+<Basic />
 :::demo Use `type`, `plain`, `round` and `circle` to define Button's style.
 
 button/basic
@@ -45,7 +50,7 @@ button/link
 
 :::tip
 
-Text button has been upgraded with a new design since <el-tag round effect="plain" size="small">2.2.0</el-tag> , if you want to use the
+Text button has been upgraded with a new design since <d-tag size="sm">2.2.0</d-tag> , if you want to use the
 previous version like button, you might want to check [Link](./link.md#basic) out.
 
 The API is also updated, because the `type` attribute also represents the button's style. So we have to make a new API

@@ -11,7 +11,10 @@
     "docs:serve": "pnpm run -C docs serve"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "@devui-design/icons": "^1.4.0",
+    "devui-theme": "^0.0.7",
+    "vue": "^3.5.13",
+    "vue-devui": "^1.6.31"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.2.1",
@@ -21,8 +24,10 @@
     "eslint": "^9.20.1",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
+    "sass": "^1.85.0",
     "typescript": "~5.7.2",
     "vite": "^6.1.0",
+    "vite-plugin-vitepress-demo": "^2.2.1",
     "vue-tsc": "^2.2.0"
   },
   "lint-staged": {

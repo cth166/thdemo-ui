@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <button>
-    button001
-  </button>
+  <d-button variant="solid">
+    Solid Button
+  </d-button>
 </template>

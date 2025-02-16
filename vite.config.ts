@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
-import { vitepressDemo } from 'vite-plugin-vitepress-demo'
+import VitePluginVitepressDemo from 'vite-plugin-vitepress-demo'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    vitepressDemo({
-      glob: ['**/demos/*.vue'],
+    VitePluginVitepressDemo({
+      // glob: ['**/examples/**/*.vue'],
     }),
   ],
 })

@@ -1,12 +1,16 @@
 {
-  "name": "ivmp-ui",
-  "version": "1.0.0",
-  "description": "",
-  "author": "",
-  "license": "ISC",
-  "keywords": [],
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@ivmp-ui/components",
+  "version": "0.0.1",
+  "description": "all components are settled here",
+  "sideEffects": [
+    "*/style/*"
+  ],
+  "main": "index.ts",
+  "module": "index.ts",
+  "unpkg": "index.js",
+  "jsdelivr": "index.js",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "vue": "^3.2.0"
   }
 }
