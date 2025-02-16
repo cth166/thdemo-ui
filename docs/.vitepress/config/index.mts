@@ -1,4 +1,5 @@
 import type { UserConfig } from 'vitepress'
+import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
 import { getViteConfig } from './vite'
 
 function setupConfig() {
@@ -7,7 +8,6 @@ function setupConfig() {
     description: 'hello ivmp-ui',
     rewrites: {
       'docs/(.*)': '/(.*)',
-      'docs/components/': 'docs/components/button',
     },
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
@@ -33,6 +33,12 @@ function setupConfig() {
       ],
     },
     vite: getViteConfig(),
+    markdown: {
+      config(md) {
+        md.use(containerPreview)
+        md.use(componentPreview)
+      },
+    },
   }
   return config
 }

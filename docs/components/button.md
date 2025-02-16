@@ -3,17 +3,12 @@ title: Button
 lang: en-US
 ---
 
-<script setup>
-import Basic from '../examples/button/basic.vue'
-</script>
-
 # Button
-
+<preview path="../examples/button/basic.vue" />
 Commonly used button.
 
 ## Basic usage
 
-<Basic />
 :::demo Use `type`, `plain`, `round` and `circle` to define Button's style.
 
 button/basic
