@@ -1,5 +1,5 @@
 {
-  "name": "@ivmp-ui/components",
+  "name": "ivmp-ui",
   "version": "0.0.1",
   "description": "all components are settled here",
   "sideEffects": [
