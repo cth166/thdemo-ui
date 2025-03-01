@@ -1,8 +1,8 @@
-const fs = require('node:fs')
-const path = require('node:path')
-const vue = require('@vitejs/plugin-vue')
-const vueJsx = require('@vitejs/plugin-vue-jsx')
-const { defineConfig, build } = require('vite')
+import fs from 'node:fs';
+import path from 'node:path'
+import vue from '@vitejs/plugin-vue';
+import vueJsx from '@vitejs/plugin-vue-jsx';
+import { defineConfig, build } from 'vite';
 
 const entryDir = path.resolve(__dirname, 'devui-vue/devui')
 const outputDir = path.resolve(__dirname, 'devui-vue/build')
