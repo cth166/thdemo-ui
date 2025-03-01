@@ -1,0 +1,31 @@
+{
+  "name": "@ivmp-ui/build-utils",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Build utils for Ivmp UI",
+  "license": "MIT",
+  "keywords": [
+    "ivmp-ui"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "stub": "unbuild --stub"
+  },
+  "dependencies": {
+    "@pnpm/find-workspace-packages": "^6.0.9",
+    "@pnpm/logger": "^1000.0.0",
+    "consola": "^3.4.0"
+  },
+  "devDependencies": {
+    "unbuild": "^3.3.1"
+  }
+}

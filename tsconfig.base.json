@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "es2018",
     "baseUrl": ".",
     "rootDir": ".",
-    "module": "esnext",
+    "module": "ESNext",
     "moduleResolution": "node",
     "paths": {
       "@ivmp-ui/*": ["packages/*"],
-      "element-plus": ["packages/components"]
+      "ivmp-ui": ["packages/ivmp-ui"]
     },
     "resolveJsonModule": true,
     "types": [],

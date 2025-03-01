@@ -1,0 +1,41 @@
+{
+  "name": "@ivmp-ui/build",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Build Toolchain for Ivmp UI",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "gulp --require @esbuild-kit/cjs-loader -f gulpfile.ts",
+    "stub": "unbuild --stub"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.25"
+  },
+  "dependencies": {
+    "@ivmp-ui/build-constants": "workspace:*",
+    "@pnpm/find-workspace-packages": "^6.0.9",
+    "@pnpm/logger": "^1000.0.0",
+    "@rollup/plugin-replace": "^6.0.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "chalk": "^5.4.1",
+    "components-helper": "^2.2.0",
+    "consola": "^3.4.0",
+    "esbuild": "^0.25.0",
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.0",
+    "gulp": "^5.0.0",
+    "lodash": "^4.17.21",
+    "rollup": "^4.34.8",
+    "rollup-plugin-esbuild": "^6.2.0"
+  },
+  "devDependencies": {
+    "@esbuild-kit/cjs-loader": "^2.4.4",
+    "@pnpm/types": "^1000.2.0",
+    "@types/gulp": "^4.0.17",
+    "unbuild": "^3.3.1",
+    "vue": "^3.5.13"
+  }
+}

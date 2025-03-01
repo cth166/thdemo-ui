@@ -1,0 +1,25 @@
+{
+  "name": "@ivmp-ui/build-constants",
+  "version": "0.0.1",
+  "description": "Build constants for Ivmp UI",
+  "license": "MIT",
+  "keywords": [
+    "ivmp-ui"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "stub": "unbuild --stub"
+  },
+  "devDependencies": {
+    "unbuild": "^3.3.1"
+  }
+}
